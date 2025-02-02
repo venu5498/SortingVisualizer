@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting Visualizer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 id="flaming-text">Sorting Visualizer</h1><br>
+        <input type="number" id="array-size" min="5" max="100" placeholder="Enter array size">
+        <input type="text" id="array-numbers" placeholder="Enter numbers separated by commas">
+        <button onclick="generateArray()">Create Array</button>
+        <div class="array-container" id="array-container"></div>
+        <button onClick="selectionSort()">Selection Sort</button>
+        <button onClick="insertionSort()">Insertion Sort</button>
+        <button onClick="bubbleSort()">Bubble Sort</button>
+        <button onClick="mergeSort()">Merge Sort</button>
+        <button onClick="quickSort()">Quick Sort</button>
+        <br>
+        <div id="code"></div>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>

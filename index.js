@@ -68,7 +68,7 @@ const arrayNumbersInput = document.getElementById("array-numbers");
                 bar2.firstChild.innerText = tempText;
 
                 resolve();
-            }, 2000);
+            }, 500);
         });
     };
 
